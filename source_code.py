@@ -32,7 +32,7 @@ try:
     print("\n✅ Successfully connected!!")
     print("PostgreSQL version:", result[0])
     
-    # Clean up
+    # Clean upp
     cursor.close()
     conn.close()
     
